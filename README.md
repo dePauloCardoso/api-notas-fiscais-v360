@@ -20,7 +20,7 @@ O projeto é dividido em três arquivos principais, cada um com uma responsabili
 Antes de rodar o projeto, você precisará de:
 
 - Python 3.x
-- Bibliotecas Python: `requests`, `pandas`, `sqlalchemy`, `psycopg2`
+- Bibliotecas Python: `requests`, `pandas`, `sqlalchemy`
 - Acesso a um banco de dados PostgreSQL configurado
 - Arquivo `.env` com as credenciais para autenticação da API e banco de dados
 
@@ -29,7 +29,7 @@ Antes de rodar o projeto, você precisará de:
 Para instalar as dependências necessárias, execute o seguinte comando:
 
 ```bash
-pip install requests pandas sqlalchemy psycopg2
+pip install requests pandas sqlalchemy 
 ```
 
 ## Configuração
